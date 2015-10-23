@@ -1,0 +1,4 @@
+<resources>
+    <!--登录头像的居上-->
+    <dimen name="login_user_img_margin_top">80dp</dimen>
+</resources>
