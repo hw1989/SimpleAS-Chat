@@ -24,20 +24,23 @@
         android:orientation="vertical">
 
         <EditText style="@style/et_login_input" />
-        <view
+
+        <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="@color/gray1"/>
+            android:background="@color/gray1" />
+
         <EditText style="@style/et_login_input" />
+
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/login_btn"
-            android:paddingTop="8dip"
-            android:paddingBottom="8dip"
-            android:textSize="18sp"
-            android:textColor="@color/white"
             android:background="@drawable/btn_login_bg"
-            android:gravity="center"/>
+            android:gravity="center"
+            android:paddingBottom="8dip"
+            android:paddingTop="8dip"
+            android:text="@string/login_btn"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
     </LinearLayout>
 </LinearLayout>
