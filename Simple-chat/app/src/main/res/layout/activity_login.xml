@@ -23,16 +23,19 @@
         android:layout_marginBottom="10dip"
         android:orientation="vertical">
 
-        <EditText style="@style/et_login_input" />
+        <EditText style="@style/et_login_input"
+            android:id="@+id/et_input_name" />
 
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:background="@color/gray1" />
 
-        <EditText style="@style/et_login_input" />
+        <EditText style="@style/et_login_input"
+            android:id="@+id/et_input_psw"/>
 
         <Button
+            android:id="@+id/btn_login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/btn_login_bg"

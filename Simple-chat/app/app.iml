@@ -98,6 +98,7 @@
     <orderEntry type="library" exported="" name="galaxy_mini" level="project" />
     <orderEntry type="library" exported="" name="support-v4-23.1.0" level="project" />
     <orderEntry type="library" exported="" name="BaiduLBS_Android" level="project" />
+    <orderEntry type="module" module-name="ASResideMenu" exported="" />
     <orderEntry type="module" module-name="simple-framework" exported="" />
   </component>
 </module>
