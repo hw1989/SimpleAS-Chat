@@ -74,6 +74,8 @@ public class IndexActivity extends BaseActivity implements OnClickListener,
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.index_layout);
+        //设置状态栏的颜色
+        initSystemBar(this,R.color.blue1);
         ActivityInject.getInstance().setInject(this);
         connect = new ConnectFragment();
         message = new MessageFragment();

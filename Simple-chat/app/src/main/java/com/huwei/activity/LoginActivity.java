@@ -8,6 +8,7 @@ import android.content.ContentValues;
 import android.content.Intent;
 import android.content.ServiceConnection;
 import android.database.Cursor;
+import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.IBinder;
@@ -25,6 +26,7 @@ import com.huwei.dialog.LoginDialog;
 import com.huwei.services.IDoWork;
 import com.huwei.services.IMService;
 import com.huwei.services.TaskManager;
+import com.huwei.view.SystemBarTintManager;
 
 import org.wind.annotation.ActivityInject;
 import org.wind.annotation.ViewInject;
@@ -87,6 +89,7 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener{
         btn_login.setOnClickListener(this);
         dialog = new LoginDialog(this, R.style.dialog);
         ActivityInject.getInstance().setInject(this);
+        initSystemBar(this,R.color.translate);
     }
 
     @Override
